@@ -1,0 +1,108 @@
+.body {
+  width: 100%;
+  height: 100%;
+}
+
+div.title p {
+
+  font-size: 50px;
+  text-align: center;
+}
+
+.body-content {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.title {
+
+  size: 50;
+}
+
+/* CSS */
+.button {
+  align-items: center;
+  background-color: #e7e7e7;
+  border-radius: 5px;
+  box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-size: 1.2rem;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 1;
+  margin: 20px auto 10px auto;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s,-webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 130px;
+  height: 20px;
+}
+
+.button:hover {
+  box-shadow: #5747b1 0 0 0 3px, transparent 0 0 0 0;
+}
+
+
+
+.cards {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+
+.card-container {
+
+  width: 20vw;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  /* background-color: gray; */
+  border-radius: 10px;
+  box-shadow: 0 0 17px rgba(0, 0, 0, 0.3); /* Set the drop shadow */
+}
+
+.card-content {
+
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  
+}
+
+.card-content .image {
+
+  width: 100%;
+  margin: auto;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+p.title {
+
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+p.type {
+
+  font-size: 15px;
+  margin: auto;
+  text-align: center;
+}
